@@ -1,5 +1,5 @@
-const { expect } = require("chai");
-const { ethers } = require("hardhat");
+import { ethers } from "hardhat";
+import { expect } from "chai";
 
 describe("Greeter", () => {
   it("Should return the new greeting once it's changed", async () => {
