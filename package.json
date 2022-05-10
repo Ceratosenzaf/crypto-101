@@ -4,16 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "fix:lint": "eslint --fix --ext .js,.jsx .",
+    "test:lint": "eslint ."
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "hardhat": "^2.9.3"
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
-    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
     "chai": "^4.3.6",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.7.1",
     "ethereum-waffle": "^3.4.4",
     "ethers": "^5.6.5",
-    "hardhat": "^2.9.3"
+    "solhint": "^3.3.7"
   }
 }
