@@ -1,4 +1,4 @@
-import { task, HardhatUserConfig } from "hardhat/config";
+import { HardhatUserConfig, task } from "hardhat/config";
 
 import "@nomiclabs/hardhat-waffle";
 

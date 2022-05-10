@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fix:lint": "eslint --fix --ext .js,.jsx .",
+    "fix:lint": "eslint --fix .",
     "test:lint": "eslint ."
   },
   "author": "",
