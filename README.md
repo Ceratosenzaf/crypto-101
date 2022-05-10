@@ -10,6 +10,6 @@ npx hardhat compile
 npx hardhat clean
 npx hardhat test
 npx hardhat node
-node scripts/sample-script.ts
+npx hardhat run scripts/sample-script.ts
 npx hardhat help
 ```

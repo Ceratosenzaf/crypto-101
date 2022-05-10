@@ -15,5 +15,6 @@ module.exports = {
     "prettier/prettier": ["error"],
     "no-console": "off",
     "no-undef": "off",
+    "sort-imports": ["warn", { allowSeparatedGroups: true }],
   },
 };
